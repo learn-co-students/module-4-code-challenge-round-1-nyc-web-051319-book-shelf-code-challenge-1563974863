@@ -45,7 +45,7 @@ class App extends Component {
     })
   }
 
-  // (5) Controlled form that allows the user to add a book to the Book List (this should NOT persist)
+  // (5) Add a book to the Book List (does NOT persist)
   addNewBook = (bookInfo) => {
     const newId = this.state.books.length + 1
     const {title, author, img} = bookInfo

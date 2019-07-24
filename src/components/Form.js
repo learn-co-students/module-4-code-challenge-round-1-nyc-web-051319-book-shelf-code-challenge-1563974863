@@ -27,6 +27,7 @@ class Form extends React.Component {
 
   }
 
+  // (5) Controlled form to add book to list
   render() {
     const {title, author, img} = this.state
     return (
