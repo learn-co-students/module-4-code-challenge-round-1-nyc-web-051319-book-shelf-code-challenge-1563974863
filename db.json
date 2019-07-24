@@ -47,6 +47,41 @@
       "title": "We Should All Be Feminists",
       "author": "Chimamanda Ngozi Adichie",
       "img": "https://images-na.ssl-images-amazon.com/images/I/51L9u20bC7L._SX348_BO1,204,203,200_.jpg"
+    },
+    {
+      "title": "Chris",
+      "author": "Chris",
+      "id": 9
+    },
+    {
+      "title": "How to Win Friends and Influence People",
+      "author": "Dale Carnegie",
+      "img": "https://images.gr-assets.com/books/1442726934l/4865.jpg",
+      "id": 10
+    },
+    {
+      "title": "The Obstacle is the Way",
+      "author": " Ryan Holiday",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/41d%2Baa6UYCL._SX352_BO1,204,203,200_.jpg",
+      "id": 11
+    },
+    {
+      "title": "The World of Abstract Art",
+      "author": "Emily Robbins",
+      "img": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjjn-7F483jAhXyYd8KHc5VAhwQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.canva.com%2Fcreate%2Fbook-covers%2F&psig=AOvVaw2KqB5ejBxiK7fGYL02DQC2&ust=1564065332103713",
+      "id": 12
+    },
+    {
+      "title": "Hello",
+      "author": "Adele",
+      "img": "No Image",
+      "id": 13
+    },
+    {
+      "title": "John",
+      "author": "Chris",
+      "img": "no Image",
+      "id": 14
     }
   ]
 }
