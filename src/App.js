@@ -63,7 +63,6 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.books)
     const { books, shelfBooks, title, author, img } = this.state
     return (
       <div className="book-container">
