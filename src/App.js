@@ -23,16 +23,19 @@ class App extends Component {
     })
   }
 
-  handleAddBook = (book) => {
+  handleAddBookToShelf = (book) => {
+    const removedBook = this.state.allBooks.filter(ele => ele !== book) 
     this.setState({
+      allBooks: removedBook,
       booksOnShelf: [...this.state.booksOnShelf, book]
     })
   }
 
-  handleRemoveBook = (book) => {
-    const removedBook = this.state.booksOnShelf.filter(ele => ele !== book)
+  handleRemoveBookFromShelf = (book) => {
+    const remainingBooks = this.state.booksOnShelf.filter(ele => ele !== book)
     this.setState({
-      booksOnShelf: removedBook
+      booksOnShelf: remainingBooks,
+      allBooks: [...this.state.allBooks, book]
     })
   }
 
@@ -59,8 +62,8 @@ class App extends Component {
   render() {
     return (
       <div className="book-container">
-        <BookList allBooks={this.state.allBooks} handleBookClick={this.handleAddBook} addNewBook={this.addNewBook}/>
-        <Bookshelf booksOnShelf={this.state.booksOnShelf} handleBookClick={this.handleRemoveBook}/>
+        <BookList allBooks={this.state.allBooks} handleBookClick={this.handleAddBookToShelf} addNewBook={this.addNewBook}/>
+        <Bookshelf booksOnShelf={this.state.booksOnShelf} handleBookClick={this.handleRemoveBookFromShelf}/>
       </div>
     );
   }
